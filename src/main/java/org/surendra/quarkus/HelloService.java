@@ -1,4 +1,4 @@
-package org.surendra;
+package org.surendra.quarkus;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
@@ -8,7 +8,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("/hello")
-public class ExampleResource {
+public class HelloService {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
